@@ -1,0 +1,79 @@
+body {border:0; padding: 0; margin: 0; background: #000;  color: aliceblue;}
+a, a:visited{
+    text-decoration: none;
+    color: rgb(68, 97, 215);
+}
+
+header nav{
+    font-size: 25px;
+    color: blue;
+    background-color: rgb(146, 184, 215);
+    display:flex;
+    /* justify-content: space-around; */
+    gap: 60px;
+    padding: 20px;
+    align-items:center;
+}
+header nav a, header nav a:visited{
+    text-decoration: none;
+    color: rgb(15, 15, 111);
+}
+
+.logo{
+    display: inline;
+
+}
+p {
+    font-size: 50px;
+}
+.maintext{
+    background-image: url(https://andpro.ru/upload/iblock/21f/Game_PC_2020.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    padding: 250px 50px;
+    
+}
+    .maintext p{
+        font-size: 50px;
+        line-height: 2.3em;
+
+    }
+    .maintext span{
+        background-color: rgb(141, 192, 228);
+    }
+.big{
+    font-size: 100px     
+}
+content {display: block;}
+content .div_padding{padding:  0 50px;}
+
+footer nav{
+    font-size: 25px;
+    color: blue;
+    background-color: rgb(146, 184, 215);
+    display:flex;
+    justify-content: space-around; 
+    gap: 30px;
+    padding: 20px;
+    align-items:center;
+    text-decoration: none;
+
+}
+footer{
+    
+    margin: 0px;
+    padding: 50px;
+}
+
+
+.video{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.video_text{ width: 500px; font-size: 30px;}
+.video_title {font-size: 50px; display: block;}    
+
+
+
